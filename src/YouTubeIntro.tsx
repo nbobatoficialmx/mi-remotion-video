@@ -40,7 +40,7 @@ const EASE_IN_OUT = Easing.inOut(Easing.quad);
 // How large the character reads at rest (scale === 1), as a fraction of
 // the composition height. Tune this if the final artwork has a lot of
 // internal empty space around the character.
-const BASE_HEIGHT_PERCENT = 52;
+const BASE_HEIGHT_PERCENT = 58;
 
 export const YouTubeIntro: React.FC = () => {
   const frame = useCurrentFrame();
